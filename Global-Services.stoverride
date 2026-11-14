@@ -1,0 +1,119 @@
+name: Global Services Check
+desc: Independent AI, streaming and social connectivity tiles. Muse endpoint is configurable.
+# All tiles are collapsed into Stash third-party services.
+# HTTP reachability does not guarantee account eligibility or regional unlock.
+tiles: #!append
+  - name: chatgpt-web-check
+    title: ChatGPT Web
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://chatgpt.com
+  - name: chatgpt-app-check
+    title: ChatGPT App
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://chatgpt.com
+  - name: gemini-check
+    title: Gemini
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://gemini.google.com
+  - name: grok-check
+    title: Grok
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://grok.com
+  - name: claude-check
+    title: Claude
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://claude.ai
+  - name: muse-check
+    title: Muse
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://muse.ai
+  - name: copilot-check
+    title: Copilot
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://copilot.microsoft.com
+  - name: perplexity-check
+    title: Perplexity
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://www.perplexity.ai
+  - name: deepseek-check
+    title: DeepSeek
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://chat.deepseek.com
+  - name: youtube-check
+    title: YouTube
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://www.youtube.com
+  - name: spotify-check
+    title: Spotify
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://open.spotify.com
+  - name: telegram-check
+    title: Telegram
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://web.telegram.org
+  - name: tiktok-check
+    title: TikTok
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://www.tiktok.com
+  - name: netflix-check
+    title: Netflix
+    icon: network
+    collapsed: true
+    interval: 600
+    url: https://www.netflix.com
+
+script-providers:
+  chatgpt-web-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/chatgpt-web-check.js
+  chatgpt-app-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/chatgpt-app-check.js
+  gemini-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/gemini-check.js
+  grok-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/grok-check.js
+  claude-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/claude-check.js
+  muse-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/muse-check.js
+  copilot-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/copilot-check.js
+  perplexity-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/perplexity-check.js
+  deepseek-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/deepseek-check.js
+  youtube-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/youtube-check.js
+  spotify-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/spotify-check.js
+  telegram-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/telegram-check.js
+  tiktok-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/tiktok-check.js
+  netflix-check:
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/netflix-check.js
