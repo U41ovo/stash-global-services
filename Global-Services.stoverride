@@ -90,30 +90,30 @@ tiles: #!append
 
 script-providers:
   chatgpt-web-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/chatgpt-web-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/chatgpt-web-check.js
   chatgpt-app-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/chatgpt-app-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/chatgpt-app-check.js
   gemini-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/gemini-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/gemini-check.js
   grok-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/grok-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/grok-check.js
   claude-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/claude-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/claude-check.js
   muse-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/muse-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/muse-check.js
   copilot-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/copilot-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/copilot-check.js
   perplexity-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/perplexity-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/perplexity-check.js
   deepseek-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/deepseek-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/deepseek-check.js
   youtube-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/youtube-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/youtube-check.js
   spotify-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/spotify-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/spotify-check.js
   telegram-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/telegram-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/telegram-check.js
   tiktok-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/tiktok-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/tiktok-check.js
   netflix-check:
-    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@main/scripts/netflix-check.js
+    url: https://fastly.jsdelivr.net/gh/U41ovo/stash-global-services@552d83d68bf50157b48115eea71d04fc0b818c7b/scripts/netflix-check.js
