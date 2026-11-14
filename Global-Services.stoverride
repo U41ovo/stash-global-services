@@ -1,7 +1,7 @@
 name: Global Services Check
-desc: Independent AI, streaming and social connectivity tiles. Muse endpoint is configurable.
+desc: Tiles show only the unlocked region code (e.g. US, JP, SG); -- when not unlocked.
 # All tiles are collapsed into Stash third-party services.
-# HTTP reachability does not guarantee account eligibility or regional unlock.
+# Display is gated on the service being reachable; it does not guarantee account eligibility.
 tiles: #!append
   - name: chatgpt-web-check
     title: ChatGPT Web
